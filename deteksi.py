@@ -29,7 +29,7 @@ class ObjectDetection:
         """
         # model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
         # model = torch.hub.load('/home/riohanson/.cache/torch/hub/ultralytics_yolov5_master', 'custom', source='local', path='yolov5/runs/train/exp51/weights/last.pt', force_reload=True)
-        model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp51/weights/last.pt', force_reload=True)
+        model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/best.pt', force_reload=True)
         return model
 
 
